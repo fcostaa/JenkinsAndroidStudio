@@ -1,4 +1,3 @@
-
 apply plugin: 'android-sdk-manager'
 apply plugin: 'android'
 
@@ -13,10 +12,28 @@ android {
         versionName "1.0"
     }
     buildTypes {
+        debug {
+            runProguard false
+        }
         release {
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+
+    lintOptions {
+        // set to true to turn off analysis progress reporting by lint
+        quiet false
+        // if true, stop the gradle build if errors are found
+        abortOnError false
+        // if true, only report errors
+        ignoreWarnings false
+        // if true, treat all warnings as errors
+        warningsAsErrors false
+        // if true, check all issues, including those that are off by default
+        checkAllWarnings true
+
+        abortOnError false
     }
 }
 
