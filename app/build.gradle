@@ -35,7 +35,7 @@ android {
         // if true, check all issues, including those that are off by default
         checkAllWarnings true
 
-        xmlReport false
+        xmlReport true
         // file to write report to (if not specified, defaults to lint-results.xml)
         xmlOutput file("lint-report.xml")
 
