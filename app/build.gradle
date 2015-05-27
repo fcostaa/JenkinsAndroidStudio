@@ -67,6 +67,19 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:22.1.1'
 
+    androidTestCompile 'org.mockito:mockito-core:1.9.5'
+    androidTestCompile 'com.google.dexmaker:dexmaker:1.2'
+    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.2'
+    androidTestCompile 'com.android.support:support-annotations:22.1.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.1'
+    androidTestCompile 'com.android.support.test:runner:0.2'
+    androidTestCompile 'com.android.support.test:rules:0.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.1'
+    androidTestCompile ('com.android.support.test.espresso:espresso-contrib:2.1') {
+        exclude group: 'com.android.support'
+        exclude group: 'com.android.support.test.espresso'
+    }
+
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-core:1.9.5'
 }

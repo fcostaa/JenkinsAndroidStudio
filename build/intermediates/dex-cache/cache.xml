@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/felipecosta/.android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-8e27837169ba265edab25a4b24379284ee823658.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/classes-709cede56f02e9ea2c05f0a3da003d7dbf3a313d.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/jacoco/jacocoagent.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ea73283d55c98ab1fccb8c23d76c68b7d7ecbd83">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/jacocoagent-0d1196caabd3ba268e03324b87ed912fe2f00004.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-70544d8db68c5be6b8bd89502207f9c8998abc52.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/classes-01ad8203076d6a1ec95ec4e2b49fce2bc3d74494.jar" />
+    </item>
+
+</items>
