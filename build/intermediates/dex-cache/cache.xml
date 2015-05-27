@@ -2,18 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/Users/felipecosta/.android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-contrib/2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-8e27837169ba265edab25a4b24379284ee823658.jar" />
+        sha1="38eca56e4cb307d60d332dfb3d483ef3b368b98d">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-872539a0cb67c9da91e09ec35e94543fcc87bca8.jar" />
     </item>
     <item
-        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/com.google.dexmaker/dexmaker-mockito/1.2/b99884a4c6ef6335ba376f79aa79632b2421c17c/dexmaker-mockito-1.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/classes-709cede56f02e9ea2c05f0a3da003d7dbf3a313d.jar" />
+        sha1="b99884a4c6ef6335ba376f79aa79632b2421c17c">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/dexmaker-mockito-1.2-b32799363aa822197d114e5eb5b16c91048c8870.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/junit/junit-dep/4.10/64417b3bafdecd366afa514bd5beeae6c1f85ece/junit-dep-4.10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="64417b3bafdecd366afa514bd5beeae6c1f85ece">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/junit-dep-4.10-096d20ebb90243f3c922d13ef0d2e5b4cb73b12e.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.1/b988c01468e3398d46678a2eb48aeb5bde271e9f/hamcrest-library-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b988c01468e3398d46678a2eb48aeb5bde271e9f">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.1-2418bfd3f3a92917030561082f70cbb2f3421d5c.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1-61211382f804904697e09c72c7fdb78780f39e52.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/1.0/9b473564e792c2bdf1449da1f0b1b5bff9805704/objenesis-1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9b473564e792c2bdf1449da1f0b1b5bff9805704">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/objenesis-1.0-21abc5cdc70a65e3079d8f1cf25dd732c693b143.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1-77b96acbfb2a5a70d1599009a505a9ae646020a0.jar" />
     </item>
     <item
         jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/jacoco/jacocoagent.jar"
@@ -23,6 +58,13 @@
         <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/jacocoagent-0d1196caabd3ba268e03324b87ed912fe2f00004.jar" />
     </item>
     <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1-7641bdeffde3197ae3136dff39aa00e72d42f23a.jar" />
+    </item>
+    <item
         jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -30,11 +72,102 @@
         <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-70544d8db68c5be6b8bd89502207f9c8998abc52.jar" />
     </item>
     <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/com.google.dexmaker/dexmaker/1.2/4d5045fefa6d286c5ddf733e321fe6e5e632efb6/dexmaker-1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4d5045fefa6d286c5ddf733e321fe6e5e632efb6">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/dexmaker-1.2-a8d27f9ff9b22da28f0b14adf8a59db525ba258c.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa416efe9dd2717f8eb55b1f5d9903bc7f9f663a">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-e28297ba835dfa216109f55300f23e1eb312581b.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29d14c552f643eae0255ba38f93c0b968fd092c4">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-e96dea13995a023ca0cc1a10a61c8fc12bd166bb.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3a764c7aef5be3d7b138eabf0334ccadf889fcbd">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-e6bd1f8a9bcb720362e03b1cebdb60162ac393e6.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-8e27837169ba265edab25a4b24379284ee823658.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2-22cb33c0ff824bea0a257514b34764d8aba2d691.jar" />
+    </item>
+    <item
         jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
         <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/classes-01ad8203076d6a1ec95ec4e2b49fce2bc3d74494.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.9.5/c3264abeea62c4d2f367e21484fbb40c7e256393/mockito-core-1.9.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c3264abeea62c4d2f367e21484fbb40c7e256393">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/mockito-core-1.9.5-d25a91c1e6e7b2b3f5ffabff1ac5474c1b6ba496.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="28db0e59551f4468fd53106e1cb13beaf636007b">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-192dc4369098df16771fb2883a94cd07718e0ad1.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-intents/2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57d16c3c97c6948403c78efdd054ac78bba57a7c">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-7f5b53b8166001e9b240e8ed45378afd9a99a2e5.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.1/8d47177aa4da0f259fc823a39736bad2f09993d5/hamcrest-integration-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d47177aa4da0f259fc823a39736bad2f09993d5">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.1-5eea5bea9d7491b4716d1b420d2927c4809a0c39.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7cc1fbd6049001f7bb694f360cc1aad53d0128b6">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/classes-a6060dbda1c9bb9dd8d14203296b514a5beb5c4c.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="860340562250678d1a344907ac75754e259cdb14">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.1-64de5e432be0a288f4e396a31bbe8f071c652520.jar" />
+    </item>
+    <item
+        jar="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/felipecosta/Documents/Github/JenkinsAndroidStudio/app/build/intermediates/pre-dexed/debug/classes-709cede56f02e9ea2c05f0a3da003d7dbf3a313d.jar" />
     </item>
 
 </items>
