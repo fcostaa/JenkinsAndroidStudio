@@ -1,24 +1,27 @@
 apply plugin: 'android-sdk-manager'
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 19
+        minSdkVersion 15
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
 
-//        testInstrumentationRunner "br.com.jenkinsandroidstudio.app.test.JacocoRunner"
+        testFunctionalTest true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         debug {
-            runProguard false
+            testCoverageEnabled true
+            debuggable true
+            minifyEnabled false
         }
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -60,24 +63,11 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:19.1.0'
-    compile 'com.android.support:support-v4:19.1.0'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-//    androidTestCompile 'org.jacoco:org.jacoco.agent:0.6.4.201312101107:runtime'
-//    androidTestCompile 'org.mockito:mockito-core:1.9.5'
-//    androidTestCompile 'com.google.dexmaker:dexmaker:1.0'
-//    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.0'
-//    androidTestCompile 'org.jacoco:org.jacoco.agent:0.7.0.201403182114:runtime'
-//    androidTestCompile 'com.jakewharton.espresso:espresso:1.1-r2'
+    compile 'com.android.support:appcompat-v7:22.1.1'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.9.5'
 }
 
-//configurations {
-//    jacocoAnt
-//}
-//
-//dependencies {
-//    jacocoAnt 'org.jacoco:org.jacoco.ant:0.7.0.201403182114'
-//}
-//
-//apply from: 'gradle-jacoco-android.gradle'
